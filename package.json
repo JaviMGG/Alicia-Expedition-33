@@ -3,6 +3,7 @@
   "displayName": "Alicia Expedition 33 Theme",
   "description": "A theme created inspired by the character Alicia from Clair Obscur: Expedition 33",
   "version": "0.0.1",
+  "publisher": "JaviMGG",
   "engines": {
     "vscode": "^1.70.0"
   },
