@@ -252,7 +252,7 @@
     },
     {
       "scope": ["entity.name.function", "support.function"],
-      "settings": { "foreground": "#b8860b", "fontStyle": "italic" }
+      "settings": { "foreground": "#c0c0c0", "fontStyle": "italic" }
     },
     {
       "scope": "variable",
@@ -307,7 +307,7 @@
           "support.function"
         ],
         "settings": {
-          "foreground": "#b8860b",
+          "foreground": "#c0c0c0",
           "fontStyle": "italic"
         }
       },
