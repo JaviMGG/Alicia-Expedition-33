@@ -1,16 +1,25 @@
-# Alicia-Clair-Obscur-Expedition-33 README
+# Alicia (Clair Obscur: Expedition 33)
 
-## Working with Markdown
+<p align="center">
+  <img src="./Images/image.jpg" alt="logo" width="371"/>
+</p>
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+A standard code theme for Visual Studio Code inspired by the aesthetics of **Alici** from _Clair Obscur: Expedition 33_. It features a dark background.
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+## Installation
 
-## For more information
+### Option 1: Visual Studio Code Marketplace (Recommended)
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+1. Open **Visual Studio Code**.
+2. Go to the **Extensions** view (`Ctrl+Shift+X` or `Cmd+Shift+X`).
+3. Search for `Alicia Expedition 33 Theme`.
+4. Click **Install**.
+5. Once installed, select the theme from **File > Preferences > Color Theme** > `Alicia Expedition 33 Theme`.
 
-**Enjoy!**
+<p align="center">
+  <img src="./Images/Captura.png" alt="Captura" width="1000"/>
+</p>
+
+## License
+
+MIT License - JaviMGG
