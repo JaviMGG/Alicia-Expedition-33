@@ -1,0 +1,25 @@
+{
+  "name": "Alicia Expedition 33",
+  "displayName": "Alicia Expedition 33 Theme",
+  "description": "A theme created inspired by the character Alicia from Clair Obscur: Expedition 33",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JaviMGG/Alicia-Expedition-33"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Alicia: Expedition 33",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Alicia Expedition 33-color-theme.json"
+      }
+    ]
+  }
+}
