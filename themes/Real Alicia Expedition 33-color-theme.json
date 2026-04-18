@@ -154,25 +154,90 @@
     "terminal.background": "#0d1416",
     "terminal.foreground": "#d0dbdc",
     "terminal.ansiBlack": "#090d0e",
-    "terminal.ansiRed": "#b85151",      // Rojo carmesí (Capa/Acentos)
-    "terminal.ansiGreen": "#659e7a",    // Verde musgo seco
-    "terminal.ansiYellow": "#b59a68",   // Latón/Dorado metálico
-    "terminal.ansiBlue": "#8c7a6b",     // Marrón cuero (Sustituye al azul)
-    "terminal.ansiMagenta": "#a86b61",  // Terracota
-    "terminal.ansiCyan": "#c7ae7f",     // Arena clara (Sustituye al cian)
+    "terminal.ansiRed": "#b85151",      
+    "terminal.ansiGreen": "#659e7a",    
+    "terminal.ansiYellow": "#b59a68",   
+    "terminal.ansiBlue": "#8c7a6b",     
+    "terminal.ansiMagenta": "#a86b61",  
+    "terminal.ansiCyan": "#c7ae7f",     
     "terminal.ansiWhite": "#d0dbdc",
     "terminal.ansiBrightBlack": "#5c7375",
     "terminal.ansiBrightRed": "#cc6666",
     "terminal.ansiBrightGreen": "#7eb896",
-    "terminal.ansiBrightYellow": "#e6c47a", // Oro brillante
-    "terminal.ansiBrightBlue": "#a6863e",   // Bronce
+    "terminal.ansiBrightYellow": "#e6c47a", 
+    "terminal.ansiBrightBlue": "#a6863e",   
     "terminal.ansiBrightMagenta": "#d4a020",
-    "terminal.ansiBrightCyan": "#f2eadd",   // Blanco hueso
+    "terminal.ansiBrightCyan": "#f2eadd",   
     "terminal.ansiBrightWhite": "#ffffff"
   },
 
   "editor.tokenColorCustomizations": {
     "textMateRules": [
+      {
+        "name": "Maelle: Comentarios",
+        "scope": [
+          "comment",
+          "punctuation.definition.comment",
+          "string.comment"
+        ],
+        "settings": { "foreground": "#6e6a6a", "fontStyle": "italic" }
+      },
+      {
+        "name": "Maelle: Cadenas de texto (Strings)",
+        "scope": [
+          "string",
+          "punctuation.definition.string"
+        ],
+        "settings": { "foreground": "#659e7a" }
+      },
+      {
+        "name": "Maelle: Palabras Clave (Keywords)",
+        "scope": [
+          "keyword",
+          "keyword.control",
+          "storage.type",
+          "storage.modifier",
+          "variable.language"
+        ],
+        "settings": { "foreground": "#b85151" }
+      },
+      {
+        "name": "Maelle: Funciones y Métodos",
+        "scope": [
+          "entity.name.function",
+          "support.function",
+          "meta.function-call"
+        ],
+        "settings": { "foreground": "#e6c47a" }
+      },
+      {
+        "name": "Maelle: Variables generales",
+        "scope": [
+          "variable",
+          "variable.other",
+          "variable.parameter"
+        ],
+        "settings": { "foreground": "#d0dbdc" }
+      },
+      {
+        "name": "Maelle: Números y Booleanos",
+        "scope": [
+          "constant.numeric",
+          "constant.language.boolean",
+          "constant.character"
+        ],
+        "settings": { "foreground": "#a86b61" }
+      },
+      {
+        "name": "Maelle: Operadores y Puntuación",
+        "scope": [
+          "keyword.operator",
+          "punctuation.separator",
+          "punctuation.terminator",
+          "punctuation.bracket"
+        ],
+        "settings": { "foreground": "#8c7a6b" }
+      },
       {
         "name": "Maelle: Atributos y Propiedades",
         "scope": [
@@ -180,12 +245,7 @@
             "variable.other.property",
             "variable.other.object.property"
         ],
-        "settings": { "foreground": "#c7ae7f" } // Tono arena/latón claro para diferenciar de variables
-      },
-      {
-        "name": "Maelle: Parámetros",
-        "scope": "variable.parameter",
-        "settings": { "foreground": "#a86b61", "fontStyle": "" } // Terracota para parámetros
+        "settings": { "foreground": "#c7ae7f" }
       },
       {
         "name": "Maelle: Clases y Tipos",
@@ -195,19 +255,18 @@
             "support.type",
             "support.class"
         ],
-        "settings": { "foreground": "#b59a68", "fontStyle": "bold" } // Dorado metálico
+        "settings": { "foreground": "#b59a68", "fontStyle": "bold" }
       },
       {
         "name": "Maelle: Etiquetas (HTML/XML)",
         "scope": "entity.name.tag",
-        "settings": { "foreground": "#b85151" } // Rojo carmesí para tags
+        "settings": { "foreground": "#b85151" }
       },
       {
         "name": "Maelle: Constantes",
         "scope": "constant.other",
         "settings": { "foreground": "#e6c47a" }
       }
-      // Se mantienen tus reglas anteriores de keywords, funciones y strings
     ]
   },
 
