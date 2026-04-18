@@ -20,6 +20,10 @@ A standard code theme for Visual Studio Code inspired by the aesthetics of **Ali
   <img src="./Images/Captura.png" alt="Captura" width="1000"/>
 </p>
 
+<p align="center">
+  <img src="./Images/Captura2.png" alt="Captura2" width="1000"/>
+</p>
+
 ## License
 
 MIT License - JaviMGG

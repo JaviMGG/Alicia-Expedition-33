@@ -18,9 +18,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Alicia: Expedition 33",
+        "label": "Alicia",
         "uiTheme": "vs-dark",
         "path": "./themes/Alicia Expedition 33-color-theme.json"
+      },
+      {
+        "label": "Real Alicia",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Real Alicia Expedition 33-color-theme.json"
       }
     ]
   }
